@@ -1,0 +1,55 @@
+.btn {
+  border-radius: 0px;
+  background-color: sandybrown;
+  font-family: georgia, 'times new roman', serif;
+  font-weight: 700;
+}
+
+.btn :hover {
+  cursor: pointer;
+  background-image: none;
+  background-color: sandybrown;
+}
+
+body {
+  background-image: url('https://images.pexels.com/photos/4144690/pexels-photo-4144690.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  opacity: 1.0;
+  /* background: #343a40; */
+  font-family: georgia, 'times new roman', serif;
+  font-weight: 700;
+}
+
+
+.nav, .card {
+  transition: .5s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.card-header, .btn-flat {
+  font-size: 20px;
+}
+
+.nav :hover, .card :hover {
+    transform: scale(1.02);
+}
+
+.card-header {
+  background-color: sandybrown;
+  font-family: georgia, 'times new roman', serif;
+  font-weight: 700;
+}
+
+.badge {
+  font-size: 15px;
+}
+
+
+footer {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: 0vmin;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
