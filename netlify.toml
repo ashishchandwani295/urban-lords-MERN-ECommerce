@@ -1,0 +1,17 @@
+[build]
+
+  # Directory of Built Files
+
+  publish = "build/"
+
+  # Production Build Command
+
+  command = "npm run build"
+
+[[redirects]]
+
+  # For React Router
+
+  from = "/*"
+  to = "/index.html"
+  status = 200
