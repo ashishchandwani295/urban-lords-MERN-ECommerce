@@ -28,7 +28,7 @@ const Home = () => {
     }
 
     return(
-        <Base title="HOME PAGE" description ="WELCOME TO URBAN LORDS STORE">
+        <Base title="URBAN LORDS STORE" description ="WELCOME TO OUR STORE">
             <div className="row">
                 {products && 
                 products.map((product, index) => {
