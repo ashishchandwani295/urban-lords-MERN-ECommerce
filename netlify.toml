@@ -6,7 +6,7 @@
 
   # Production Build Command
 
-  command = "npm run build"
+  command = "CI= npm run build"
 
 [[redirects]]
 
