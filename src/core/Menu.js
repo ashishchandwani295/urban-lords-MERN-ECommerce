@@ -19,7 +19,7 @@ const Menu = ({ history }) => {
                 <li className="nav-item">
                     <Link style={currentTab(history, "/")} className="nav-link" to="/">HOME</Link>  
                 </li>
-                {(loadCart().length !== 0) && (
+                {loadCart() && (loadCart().length !== 0) && (
                     <li className="nav-item">
                     <Link style={currentTab(history, "/cart")} className="nav-link" to="/cart">CART</Link>  
                 </li>
