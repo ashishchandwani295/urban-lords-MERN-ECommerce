@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Access the website here: https://urban-lords-store.netlify.app/
 
 ## Available Scripts
 
